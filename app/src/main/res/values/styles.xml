@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base Theme -->
+    <style name="Theme.YourAppName" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+    </style>
+
+    <!-- TextInput Layout Style -->
+    <style name="TextInputStyle">
+        <item name="android:paddingBottom">8dp</item>
+        <item name="boxStrokeColor">@color/black</item>
+        <item name="boxBackgroundMode">filled</item>
+        <item name="boxCornerRadiusTopStart">10dp</item>
+        <item name="boxCornerRadiusTopEnd">10dp</item>
+        <item name="boxCornerRadiusBottomStart">10dp</item>
+        <item name="boxCornerRadiusBottomEnd">10dp</item>
+    </style>
+
+</resources>

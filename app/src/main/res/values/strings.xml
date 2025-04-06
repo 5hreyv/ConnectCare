@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ConnectCare</string>
+    <string name="google_maps_key">AIzaSyC734BAeuTBk8tAZ-ah1D4-ebn3vxbzWgE</string>
+    <string name="default_web_client_id">YOUR_WEB_CLIENT_ID</string>
+    <string name="app_logo">App Logo</string>
+    <string name="join_as">Join as:</string>
+    <string name="volunteer">Volunteer</string>
+    <string name="ngo">NGO</string>
+    <string name="ngo_name_id">NGO Name - ID</string>
+    <string name="enable_notifications">Enable Notifications</string>
+    <string name="change_password">Change Password</string>
+    <string name="logout">Logout</string>
+    <string name="settings">Settings</string>
+    <string-array name="donation_types">
+        <item>Money</item>
+        <item>Food</item>
+        <item>Clothes</item>
+        <item>Medical Supplies</item>
+        <item>Books</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="ngo_categories">
+        <item>Health and Medical</item>
+        <item>Education</item>
+        <item>Environment</item>
+        <item>Human Rights</item>
+        <item>Animal Welfare</item>
+        <item>Disaster Relief</item>
+        <item>Women Empowerment</item>
+        <item>Other</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/nav_ngo_profile"
+        android:icon="@drawable/ic_profile"
+        android:title="Profile" />
+
+    <item
+        android:id="@+id/nav_ngo_dashboard"
+        android:icon="@drawable/ic_dashboard"
+        android:title="Dashboard" />
+
+    <item
+        android:id="@+id/nav_ngo_add_emergency_request"
+        android:icon="@drawable/ic_emergency"
+        android:title="Add Request" />
+
+    <item
+        android:id="@+id/nav_ngo_notifications"
+        android:icon="@drawable/ic_notifications"
+        android:title="Updates" />
+
+
+    <item
+        android:id="@+id/nav_ngo_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="Settings" />
+
+</menu>

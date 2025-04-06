@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="backgroundColor">#F5F5F5</color>
+    <color name="primaryTextColor">#333333</color>
+    <color name="buttonColor">#4CAF50</color>
+    <color name="accentColor">#FF9800</color>
+    <color name="background_color">#F5F5F5</color>
+    <color name="card_background">#fad0c9</color>
+    <color name="icon_color">#4CAF50</color>
+    <color name="text_primary">#333333</color>
+    <color name="text_secondary">#757575</color>
+    <color name="leaf">#d0e391</color>
+    <color name="blue">#91d0e3</color>
+    <color name="coral">#e3a491</color>
+    <color name="lavender">#c3a7e9</color>
+    <color name="lilac">#dfa7e9</color>
+    <color name="tint">#8cdcd4</color>
+    <color name="primaryColor">#1976D2</color>
+    <color name="secondaryColor">#FFC107</color>
+    <color name="cardBackground">#FFFFFF</color>
+    <color name="textColor">#212121</color>
+    <color name="teal_200">#80CBC4</color>
+    <color name="red">#F44336</color>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "82518752941",
+    "project_id": "connectcare-7257a",
+    "storage_bucket": "connectcare-7257a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82518752941:android:0e574aa8d60f1badb8d024",
+        "android_client_info": {
+          "package_name": "com.app.connectcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "82518752941-rgrlf4tlgfjkesh1r9egcuh547u28glm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz-sAwGh6881a5hy6LFlPa7mJQGrpJKc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "82518752941-rgrlf4tlgfjkesh1r9egcuh547u28glm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

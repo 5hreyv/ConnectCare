@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white"
+    tools:context=".NgoProfileActivity">
+
+    <!-- Profile Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingBottom="16dp">
+
+        <!-- Profile Image -->
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_ngo" />
+
+        <!-- NGO Name & Email -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="16dp">
+
+            <TextView
+                android:id="@+id/tvNgoName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NGO Name"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tvNgoEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ngo@example.com"
+                android:textSize="14sp"
+                android:textColor="@color/text_secondary" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- NGO Details -->
+    <TextView
+        android:id="@+id/tvNgoDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NGO Description"
+        android:textSize="14sp"
+        android:paddingEnd="50dp"
+        android:paddingBottom="12dp"
+        android:textColor="@color/black" />
+
+    <!-- Upload Profile Picture -->
+    <Button
+        android:id="@+id/btnUploadPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Upload Profile Picture"
+        android:backgroundTint="@color/primaryTextColor"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- NGO Image Upload Section -->
+    <ImageView
+        android:id="@+id/ngoPhotoContainer"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="centerCrop"
+        android:background="@color/white" />
+
+    <Button
+        android:id="@+id/btnUploadNgoPhotos"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Upload NGO Photos"
+        android:backgroundTint="@color/primaryTextColor"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Requests & Events History -->
+    <TextView
+        android:text="Requests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingTop="10dp" />
+
+    <TextView
+        android:id="@+id/tvRequests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loading..."
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:paddingBottom="12dp" />
+
+    <TextView
+        android:text="Events"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingTop="10dp" />
+
+    <TextView
+        android:id="@+id/tvEvents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loading..."
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:paddingBottom="12dp" />
+
+    <!-- Bottom Navigation Bar -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:itemIconTint="@color/icon_color"
+        app:itemTextColor="@color/icon_color"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/ngo_bottom_nav_menu" />
+
+
+</LinearLayout>

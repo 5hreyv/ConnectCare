@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:padding="20dp">
+
+    <!-- Settings Header -->
+    <LinearLayout
+        android:id="@+id/more_options_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:background="@color/secondaryColor"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:elevation="6dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="More Options"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <!-- Options List -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/options_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/more_options_header"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="8dp"
+        app:cardBackgroundColor="@color/cardBackground"
+        android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="⚙️ Settings"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/textColor"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/tvPrivacyPolicy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🔒 Privacy Policy"
+            android:textSize="18sp"
+            android:textColor="@color/textColor"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/tvHelp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="❓ Help"
+            android:textSize="18sp"
+            android:textColor="@color/textColor"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
+    <!-- Logout Button -->
+<Button
+android:id="@+id/btnLogout"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Logout"
+android:textSize="16sp"
+android:layout_below="@id/options_card"
+android:layout_marginTop="20dp"
+android:backgroundTint="@color/buttonColor"
+android:textColor="@android:color/white"/>
+
+    <!-- Bottom Navigation -->
+<com.google.android.material.bottomnavigation.BottomNavigationView
+android:id="@+id/bottom_navigation"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_alignParentBottom="true"
+app:menu="@menu/bottom_nav_menu"
+android:background="@color/white"/>
+
+    </RelativeLayout>

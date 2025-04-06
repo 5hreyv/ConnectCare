@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <!-- Event Name -->
+    <EditText
+        android:id="@+id/etEventName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Event Name"
+        android:padding="10dp"/>
+
+    <!-- Event Date -->
+    <EditText
+        android:id="@+id/etEventDate"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Event Date (DD/MM/YYYY)"
+        android:inputType="date"
+        android:padding="10dp"/>
+
+    <!-- Event Details -->
+    <EditText
+        android:id="@+id/etEventDetails"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Event Details"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:gravity="top"
+        android:padding="10dp"/>
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/btnSubmitEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Event"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/primaryColor"
+        android:textColor="@android:color/white"/>
+</LinearLayout>
