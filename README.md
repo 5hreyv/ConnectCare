@@ -69,14 +69,14 @@ By enabling individuals to **donate unused medicines, clothes, and other essenti
 Third Year, CSE  
 MGM’s Jawaharlal Nehru Engineering College  
 📍 India  
-[LinkedIn]([https://www.linkedin.com/in/shreya-katare/]) | [GitHub](https://github.com/5hreyv)
+[LinkedIn](https://www.linkedin.com/in/shreya-katare/) | [GitHub](https://github.com/5hreyv)
 
 
 **Aditi Shisode**
 Third Year, CSE
 MGM’s Jawaharlal Nehru Engineering College  
 📍 India  
-[LinkedIn]([https://www.linkedin.com/in/aditi-shisode-b943a628a/]) | [GitHub](https://github.com/Aditi-Shisode24)
+[LinkedIn](https://www.linkedin.com/in/aditi-shisode-b943a628a/) | [GitHub](https://github.com/Aditi-Shisode24)
 
 ---
 
