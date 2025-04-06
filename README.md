@@ -49,9 +49,7 @@ By enabling individuals to **donate unused medicines, clothes, and other essenti
 ## 📸 Screenshots
 
 <p float="left">
-  <img src="dashboard.png" width="200" />
-  <img src="donation.png" width="200" />
-  <img src="donation2.png" width="200" />
+  <img src="donation.png" width="400" />
 </p>
 
 ---
