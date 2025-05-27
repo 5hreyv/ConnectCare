@@ -25,10 +25,10 @@ By enabling individuals to **donate unused medicines, clothes, and other essenti
 - 📍 Nearby NGO Finder: Discover and connect with verified NGOs around you using location services. 
 - 🧾 Organized, clean interface for easy navigation  
 - 🔄 Role switch between donor & receiver
--🔒 Google Sign-In: Secure and easy login/signup using Google accounts.
--💸 Google Pay Integration: Make optional monetary contributions or support causes through direct payments.
--💬 Collaboration & Chat (Upcoming): Communicate directly with NGOs or beneficiaries via secure in-app messaging.
--🧾 Donation Tracker: Monitor your donation history and impact through a user-friendly dashboard.
+- 🔒 Google Sign-In: Secure and easy login/signup using Google accounts.
+- 💸 Google Pay Integration: Make optional monetary contributions or support causes through direct payments.
+- 💬 Collaboration & Chat (Upcoming): Communicate directly with NGOs or beneficiaries via secure in-app messaging.
+- 🧾 Donation Tracker: Monitor your donation history and impact through a user-friendly dashboard.
 
 ---
 
@@ -61,11 +61,11 @@ By enabling individuals to **donate unused medicines, clothes, and other essenti
 
 ## 🧠 Future Enhancements
 
--🔍 Smart Matching: AI-based recommendation of nearby NGOs based on donation type
--📡 Geo-fencing Alerts: Notify users when nearby shelters or NGOs need help
--🛡️ Item Verification & Expiry Tracking
--📈 Analytics Dashboard: Visual impact summary (items donated, NGOs helped, CO2 saved)
--🌐 Multi-language Support for regional inclusivity
+- 🔍 Smart Matching: AI-based recommendation of nearby NGOs based on donation type
+- 📡 Geo-fencing Alerts: Notify users when nearby shelters or NGOs need help
+- 🛡️ Item Verification & Expiry Tracking
+- 📈 Analytics Dashboard: Visual impact summary (items donated, NGOs helped, CO2 saved)
+- 🌐 Multi-language Support for regional inclusivity
 
 ---
 
