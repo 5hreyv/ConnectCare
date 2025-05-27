@@ -1,4 +1,4 @@
-# 🌱 ConnectCare — Google Solution Challenge 2025 Submission
+# 🌱 ConnectCare — Connecting NGOs and Volunteers 
 
 > “Because kindness should never be out of reach.”
 
@@ -6,7 +6,7 @@
 
 ## 📌 About the Project
 
-**ConnectCare** is a mobile application developed as a part of the **Google Solution Challenge 2025**, aimed at leveraging technology to solve one or more of the United Nations’ **17 Sustainable Development Goals (SDGs)**.
+**ConnectCare** is a mobile application aimed at leveraging technology to solve one or more of the United Nations’ **17 Sustainable Development Goals (SDGs)**.
 
 This project addresses the following SDGs:
 
@@ -22,9 +22,13 @@ By enabling individuals to **donate unused medicines, clothes, and other essenti
 
 - 📦 Upload donation items with images & categories  
 - 🗂️ View and browse donations from others  
-- 📍 Location tagging (future scope)  
+- 📍 Nearby NGO Finder: Discover and connect with verified NGOs around you using location services. 
 - 🧾 Organized, clean interface for easy navigation  
 - 🔄 Role switch between donor & receiver
+-🔒 Google Sign-In: Secure and easy login/signup using Google accounts.
+-💸 Google Pay Integration: Make optional monetary contributions or support causes through direct payments.
+-💬 Collaboration & Chat (Upcoming): Communicate directly with NGOs or beneficiaries via secure in-app messaging.
+-🧾 Donation Tracker: Monitor your donation history and impact through a user-friendly dashboard.
 
 ---
 
@@ -39,11 +43,12 @@ By enabling individuals to **donate unused medicines, clothes, and other essenti
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: Android (Java, XML)
+- **Frontend**: Android (Java, Kotlin, XML)
 - **Backend**: Firebase / SQLite / REST API (to be integrated)
 - **Design**: Material UI
 - **Tools**: Android Studio, GitHub, Figma (for UI)
-
+- **Payments**: Google Pay API
+- **Authentication**: Firebase Auth with Google Sign-In
 ---
 
 ## 📸 Screenshots
@@ -56,37 +61,14 @@ By enabling individuals to **donate unused medicines, clothes, and other essenti
 
 ## 🧠 Future Enhancements
 
-- 🔍 Location-based donation search  
-- 💬 In-app messaging between donor and receiver  
-- 🛡️ Verification for item safety & expiry tracking  
-- 📈 Analytics dashboard for donor impact  
+-🔍 Smart Matching: AI-based recommendation of nearby NGOs based on donation type
+-📡 Geo-fencing Alerts: Notify users when nearby shelters or NGOs need help
+-🛡️ Item Verification & Expiry Tracking
+-📈 Analytics Dashboard: Visual impact summary (items donated, NGOs helped, CO2 saved)
+-🌐 Multi-language Support for regional inclusivity
 
 ---
 
-## 👩‍💻 Developed By
-
-**Shreya Katare**  
-Third Year, CSE  
-MGM’s Jawaharlal Nehru Engineering College  
-📍 India  
-[LinkedIn](https://www.linkedin.com/in/shreya-katare/) | [GitHub](https://github.com/5hreyv)
-
-
-**Aditi Shisode**
-Third Year, CSE
-MGM’s Jawaharlal Nehru Engineering College  
-📍 India  
-[LinkedIn](https://www.linkedin.com/in/aditi-shisode-b943a628a/) | [GitHub](https://github.com/Aditi-Shisode24)
-
----
-
-## 🌍 Built for Google Solution Challenge 2025
-
-The **Google Solution Challenge** is an annual competition hosted by Google Developers, encouraging students to build solutions that address the UN Sustainable Development Goals using Google technology.
-
-🔗 [Google Solution Challenge Official Site](https://developers.google.com/community/gdsc-solution-challenge)
-
----
 
 ## 📜 License
 
